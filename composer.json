@@ -1,0 +1,15 @@
+{
+    "name": "volvox/satis",
+    "type": "project",
+    "require-dev": {
+        "composer/satis": "^2.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Bartosz Zawiślak",
+            "email": "bezawislak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

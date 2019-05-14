@@ -1,0 +1,1 @@
+composer exec -vvv satis build satis.json . %* && git add . && git commit --amend -m "repo" && git push -f

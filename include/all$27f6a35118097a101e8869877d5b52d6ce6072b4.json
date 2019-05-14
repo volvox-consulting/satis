@@ -1,0 +1,733 @@
+{
+    "packages": {
+        "volvox/core": {
+            "dev-master": {
+                "name": "volvox/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/core.git",
+                    "reference": "8dea87014c015674fb800a220044ff9c8cf7ca1e"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-05T11:12:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Core\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Core\\": "./tests/unit"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/forms": {
+            "dev-master": {
+                "name": "volvox/forms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/forms.git",
+                    "reference": "f4f0abf41d3e56e1dda054d35854d9f2bd9567ae"
+                },
+                "require": {
+                    "hoa/math": "1.17.05.16",
+                    "php": "^7.2",
+                    "symfony/form": "^4.2",
+                    "symfony/validator": "^4.2",
+                    "volvox/core": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-04T08:25:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Form\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Form\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-calc-expression-parser": {
+            "1.0.0": {
+                "name": "volvox/kms-calc-expression-parser",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git",
+                    "reference": "421b3cfc0453ba6135b247c6b370f5579b7e079a"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/codeception": "^3.0",
+                    "codeception/verify": "^1.0"
+                },
+                "time": "2019-05-10T11:19:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\CalcExpressionParser\\": "./src/",
+                        "Volvox\\CalcExpressionParser\\PegJs\\": "./dist/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\CalcExpressionParser\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ],
+                "description": "Sekel Calc Expression Parser"
+            },
+            "1.1.0": {
+                "name": "volvox/kms-calc-expression-parser",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git",
+                    "reference": "fbbde77fe47d6760778f2baf1b99e777c5301ff9"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/codeception": "^3.0",
+                    "codeception/verify": "^1.0"
+                },
+                "time": "2019-05-10T13:07:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\CalcExpressionParser\\": "./src/",
+                        "Volvox\\CalcExpressionParser\\PegJs\\": "./dist/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\CalcExpressionParser\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ],
+                "description": "Sekel Calc Expression Parser"
+            },
+            "1.2.0": {
+                "name": "volvox/kms-calc-expression-parser",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git",
+                    "reference": "367487f94affc8447f0c37cc64e6f62d01fe62fc"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/codeception": "^3.0",
+                    "codeception/verify": "^1.0"
+                },
+                "time": "2019-05-13T09:59:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\CalcExpressionParser\\": "./src/",
+                        "Volvox\\CalcExpressionParser\\PegJs\\": "./dist/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\CalcExpressionParser\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ],
+                "description": "Sekel Calc Expression Parser"
+            },
+            "1.3.0": {
+                "name": "volvox/kms-calc-expression-parser",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git",
+                    "reference": "a969d84c69a3bfa3869754410fa340f13d503131"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/codeception": "^3.0",
+                    "codeception/verify": "^1.0"
+                },
+                "time": "2019-05-16T09:24:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\CalcExpressionParser\\": "./src/",
+                        "Volvox\\Kms\\CalcExpressionParser\\PegJs\\": "./dist/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\CalcExpressionParser\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ],
+                "description": "Sekel Calc Expression Parser"
+            },
+            "dev-master": {
+                "name": "volvox/kms-calc-expression-parser",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git",
+                    "reference": "a969d84c69a3bfa3869754410fa340f13d503131"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "codeception/codeception": "^3.0",
+                    "codeception/verify": "^1.0"
+                },
+                "time": "2019-05-16T09:24:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\CalcExpressionParser\\": "./src/",
+                        "Volvox\\Kms\\CalcExpressionParser\\PegJs\\": "./dist/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\CalcExpressionParser\\": "./tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ],
+                "description": "Sekel Calc Expression Parser"
+            }
+        },
+        "volvox/kms-core": {
+            "dev-master": {
+                "name": "volvox/kms-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-core.git",
+                    "reference": "bf442b620016b7ceafd46c6545a2b317d9710586"
+                },
+                "require": {
+                    "league/flysystem": "^1.0",
+                    "php": "^7.2",
+                    "volvox/core": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-10-22T12:47:36+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Core\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\Core\\": "./tests/unit",
+                        "Tests\\Integration\\Volvox\\Kms\\Core\\": "./tests/integration"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-document-management": {
+            "dev-master": {
+                "name": "volvox/kms-document-management",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-document-management.git",
+                    "reference": "8f42619fa9ea09a667d671995a7957bd8af78d42"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/core": "dev-master",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-fixtures": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master",
+                    "volvox/kms-metadata": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-11T11:23:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\DocumentManagement\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\DocumentManagement\\": "./tests/unit/",
+                        "Tests\\Integration\\Volvox\\Kms\\DocumentManagement\\": "./tests/integration/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            },
+            "dev-dev": {
+                "name": "volvox/kms-document-management",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-document-management.git",
+                    "reference": "c5a38c25055b8be3283fe975c3280a4c0ab35c09"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/core": "dev-master",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-fixtures": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master",
+                    "volvox/kms-metadata": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-06-28T12:51:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\DocumentManagement\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\DocumentManagement\\": "./tests/unit/",
+                        "Tests\\Integration\\Volvox\\Kms\\DocumentManagement\\": "./tests/integration/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-fixtures": {
+            "dev-master": {
+                "name": "volvox/kms-fixtures",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-fixtures.git",
+                    "reference": "307ed4e3208a0235b2f32143da4e98080f4acccd"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master"
+                },
+                "time": "2019-10-29T12:52:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Fixtures\\": "./src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-forms": {
+            "dev-master": {
+                "name": "volvox/kms-forms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-forms.git",
+                    "reference": "997d25f178df5aa3c1430b5e96a29a22b48c5466"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "symfony/serializer": "4.2.*",
+                    "volvox/forms": "dev-master",
+                    "volvox/kms-calc-expression-parser": "^1.3",
+                    "volvox/kms-document-management": "dev-master",
+                    "volvox/kms-identity-access": "dev-master",
+                    "volvox/kms-metadata": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-11T06:40:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Form\\": "./src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\Form\\": "./tests/unit",
+                        "Tests\\Integration\\Volvox\\Kms\\Form\\": "./tests/integration",
+                        "Tests\\Unit\\Volvox\\Form\\": "./vendor/volvox/forms/tests/unit/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-identity-access": {
+            "dev-master": {
+                "name": "volvox/kms-identity-access",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-identity-access.git",
+                    "reference": "48ed7af90c67899a46faebe3ae132a9d4b857e81"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.2",
+                    "volvox/kms-fixtures": "dev-master"
+                },
+                "time": "2019-07-03T12:06:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\IdentityAccess\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Kms\\IdentityAccess\\": "./tests/unit",
+                        "Tests\\Integration\\Kms\\IdentityAccess\\": "./tests/integration"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-infrastructure-mysql": {
+            "dev-master": {
+                "name": "volvox/kms-infrastructure-mysql",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-infrastructure-mysql.git",
+                    "reference": "afa93892838a6b2febe60005b74f5622fbbadf66"
+                },
+                "require": {
+                    "ext-pdo": "*",
+                    "php": "^7.2",
+                    "rkr/php-mysql-query-builder": "0.1.54.1",
+                    "volvox/kms-core": "dev-master"
+                },
+                "time": "2019-10-04T08:56:28+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Infrastructure\\MySQL\\": "./src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-metadata": {
+            "dev-master": {
+                "name": "volvox/kms-metadata",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-metadata.git",
+                    "reference": "026d3899dfbdf61b0a8057f759020461a5742a9b"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/core": "dev-master",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-fixtures": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-10T07:29:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Metadata\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\Metadata\\": "./tests/unit/",
+                        "Tests\\Integration\\Volvox\\Kms\\Metadata\\": "./tests/integration/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-reporting": {
+            "dev-master": {
+                "name": "volvox/kms-reporting",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-reporting.git",
+                    "reference": "b75cac5f54926df2ee559a57f0fe36d84b636ab3"
+                },
+                "require": {
+                    "cycle/orm": "^1.1",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-pdo": "*",
+                    "ext-simplexml": "*",
+                    "hoa/compiler": "^3.17",
+                    "php": "^7.2",
+                    "phplrt/lexer": "^2.2",
+                    "ramsey/uuid": "^3.8",
+                    "symfony/http-client": "^4.3",
+                    "volvox/kms-core": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.2",
+                    "spatie/phpunit-snapshot-assertions": "^2.1",
+                    "symplify/easy-coding-standard": "^6.0",
+                    "volvox/kms-fixtures": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master"
+                },
+                "time": "2019-10-29T10:48:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\Reporting\\": "./src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\Reporting\\": "./tests/unit",
+                        "Tests\\Integration\\Volvox\\Kms\\Reporting\\": "./tests/integration"
+                    }
+                },
+                "scripts": {
+                    "cs": [
+                        " ecs check src tests --no-progress-bar --fix"
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        },
+        "volvox/kms-user-testing": {
+            "dev-master": {
+                "name": "volvox/kms-user-testing",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/_volvox_/kms-user-testing.git",
+                    "reference": "3aa982832d4cb81e8c216eed9c67306d4dec2427"
+                },
+                "require": {
+                    "php": "^7.2",
+                    "volvox/core": "dev-master",
+                    "volvox/kms-core": "dev-master",
+                    "volvox/kms-fixtures": "dev-master",
+                    "volvox/kms-infrastructure-mysql": "dev-master",
+                    "volvox/kms-metadata": "dev-master"
+                },
+                "require-dev": {
+                    "codeception/verify": "^1.0",
+                    "phpunit/phpunit": "^8.1"
+                },
+                "time": "2019-07-03T10:59:21+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Volvox\\Kms\\UserTesting\\": "./src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\Volvox\\Kms\\UserTesting\\": "./tests/unit",
+                        "Tests\\Integration\\Volvox\\Kms\\UserTesting\\": "./tests/integration"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bartosz Zawiślak",
+                        "email": "bezawislak@gmail.com"
+                    }
+                ]
+            }
+        }
+    }
+}

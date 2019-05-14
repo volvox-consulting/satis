@@ -1,0 +1,55 @@
+{
+  "name": "volvox/satis",
+  "homepage": "https://volvox-consulting.github.io/satis/",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/core.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/forms.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-calc-expression-parser.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-core.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-document-management.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-fixtures.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-forms.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-infrastructure-mysql.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-metadata.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-reporting.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-user-testing.git"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/_volvox_/kms-identity-access.git"
+    }
+  ],
+  "require-all": true
+}
